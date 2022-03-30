@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Payment Form</title>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css "/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+    <main>
+        <aside><a href="/"><img src="images/logo.png" alt="Swayampak" ></a></aside>
+       </main>
+    <div class="wrapper">
+        <div class="payment">
+           <h2>Payment Gateway</h2> 
+           <div class="paymentForm">
+               <div class="paymentCard space icon-relative">
+                   <label class="cardDetails">Card Holder:</label>
+                   <input type="text" class="cardHolderDetails" name="card holder" placeholder="Card Holder">
+                   <i class="fa fa-user" aria-hidden="true"></i>
+
+               </div>
+
+               <div class="paymentCard space icon-relative" >
+                <label class="cardDetails">Card Number</label>
+                <input type="text" class="cardHolderDetails" name="card Number" placeholder="Card Number" data-mask="0000 0000 0000 0000">
+                <i class="fa fa-credit-card" aria-hidden="true"></i>
+
+            </div>
+            <div class="card-group space">
+
+                <div class="importantCCDetails icon-relative" >
+                    <label class="cardHolder">Expiry Date:</label>
+                    <input type="text" class="cardHolderDetails" name="Expity date" placeholder="00/00" data-mask="00/00"> 
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                </div>
+                <div class="importantCCDetails icon-relative">
+                    <label class="cardHolder">CVV:</label>
+                    <input type="text" class="cardHolderDetails" name="CVV" placeholder="000" data-mask="000">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+
+                </div>
+            </div>
+
+            <div class="pay">
+                Pay
+            </div>
+           </div>
+
+
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+</body>
+
+
+</html>

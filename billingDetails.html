@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Delivery Details</title>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css "/>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,700;1,600&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <main>
+            <aside><a href="/"><img src="images/logo.png" alt="Swayampak" ></a></aside>
+
+           </main>
+
+<div class="deliveryDetails">
+           <div class="deliveryForm">
+               <div class="deliveryContact">
+                <form action="#" >
+
+                       <h2>Delivery contact information</h2>
+                         <input type="text" class="billingDetailsName" id="billingDetailsName"  placeholder="First Name">
+                          <input type="text" class="billingDetailsLastName" id="billingDetailsLastName"  placeholder="Last Name">
+                          <input type="email" class="guestEmail"  id="guestEmail" placeholder="Email">
+                          <input type="text" class="billingDetailsMobile" id="billingDetailsMobile" placeholder="Mobile or Landline Number" data-mask="0000 000 000">
+                 </div>
+         
+           
+               <div class="deliveryAddress">
+                         <h2>Delivery shipping address</h2>
+                        <input type="text" class="billingDetailsAddress" id="billingDetailsAddress" placeholder="Address">
+                 </div>
+              <!--                <button class="proceedCheckout" ><a href="checkout.html">Proceed to Payment</a></button> 
+-->
+                <button class="proceedCheckout" >Proceed to Payment</button> 
+
+            </div>
+            <div id=billingDetailsContainer>
+                <div class="displayBillingDetails"></div>
+            </div>
+        </form>
+            <div class="orderSummary">
+                <h2>Home Delivery Items</h2>
+                <button class="editCart"><a href="cart.html">Edit Cart</a></button>
+                <div class="orderSummaryContainer">
+                    <div class="orderSummaryHeader">
+                    <div class="items">Items</div>
+                    <div class="quantity">Qty</div>
+                    <div class="total">Total</div>
+                </div>
+                <div class="summaryContainer"></div>
+            </div>
+               
+           
+ </div>
+ </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>  
+<script src="deliveryDetails.js"></script>
+
+</body>
+</html>

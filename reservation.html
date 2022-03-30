@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,700;1,600&display=swap" rel="stylesheet">
+<title>Swaympak</title>
+    </head>
+    <body>
+        
+       
+        <main>
+            <aside><a href="/"><img src="images/logo.png" alt="Swayampak" ></a></aside>
+           </main>
+           
+     
+        <div class="reservationHeader">
+            <nav>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    
+                    <li><a href="menu.html">MENU</a></li>
+                    
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                    <li><a href="reservation.html">RESERVATION</a></li>
+                   
+                </ul>
+                
+               
+            </nav>
+        </div>
+                   
+        
+
+        <div class="reservationContainer">
+            <div class="reservationContainerTime"></div>
+            <div class="reservationContainerForm">
+                <form action="#" >
+                    <h2 class="formHeading">Reserve a Table</h2>
+                    <div class="formFields">
+                       <p id= demo>Your Name</p>
+                       <input type="text" id="customerName"placeholder="Your Name">
+                    </div>
+                    <br>
+                    <div class="formFields">
+                        <p>Your Email</p>
+                        <input type="email" id="customerEmailId" placeholder="Your Email">
+ 
+                     </div>
+                     <br>
+                     <div class="formFields">
+                        <p>Date</p>
+                        <input type="date" id="selectedDate">
+ 
+                     </div>
+                     <br>
+                     <div class="formFields">
+                        <p>Time</p>
+                        <input type="time" id="timeSelected">
+ 
+                     </div>
+                     <br>
+                     
+                     <div class="formFields">
+                        <p>Number Of Persons</p>
+                        <select name="select" id="persons">
+                            <option value="1"> 1 person</option>
+                            <option value="2"> 2 persons</option>
+                            <option value="3"> 3 persons</option>
+                            <option value="4"> 4 persons</option>
+                            <option value="5"> 5 persons</option>
+                            <option value="5+"> 5+ person</option>
+                
+                        </select>
+ 
+                     </div>
+                     <br>
+                     <div class="bookButton">
+                     <button class="book" >Book</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+
+       
+
+        </div>
+        <div id="notificatonContainer">
+            
+
+            
+
+               <div class="displayNotification"></div>     
+        </div>
+            
+       
+        
+      
+        <script src="https://smtpjs.com/v3/smtp.js">
+        </script>  
+    <script src="reservation.js"></script>
+    
+      
+    </body>
+</html>

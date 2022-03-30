@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css "/>
+    </head>
+    <body>
+        <script src="main.js"></script>
+   
+  <div class="menuContainer" >  
+    <article> <p>Menu</p></article> 
+    <div class="bg-image">
+     
+  <section class="columns-desktop">
+    
+    <div class ="Menu">
+
+        <div class="columns" >
+            <div class="title">Modak. . . . . . . . . . . . . . 
+           <br><h3>(Steamed rice dumpling filled with sweet coconut filling.)</h3></div>
+            <div class="Price">$20</div>
+        </div>
+        <a class="add-cart" href="a"><i class="fas fa-shopping-cart"></i></a>     
+
+    </div>
+    <div class ="Menu">
+            <div class="columns" >
+                <div class="title">idli. . . . . . . . . . . . . . 
+                <br><h3>(Steamed rice dumpling filled with sweet coconut filling.)</h3> </div>
+               
+                
+                <div class="Price">$20</div>
+            </div>
+            <a class="add-cart" href="a"><i class="fas fa-shopping-cart"></i></a>     
+    
+        </div>
+        <div class ="Menu">
+                <div class="columns" >
+                    
+                    <div class="title">Puranpoli. . . . . . . . . . . . 
+                    <br><h3>(Steamed rice dumpling filled with sweet coconut filling.)</h3></div>
+                    <div class="Price">$20</div>
+                </div>
+                <a class="add-cart" href="a"><i class="fas fa-shopping-cart"></i></a>     
+        
+            </div>
+            <div class ="Menu">
+
+                <div class="columns" >
+                    <div class="title">Modak. . . . . . . . . . . . . . 
+                   <br><h3>(Steamed rice dumpling filled with sweet coconut filling.)</h3></div>
+                    <div class="Price">$20</div>
+                </div>
+                <a class="add-cart" href="a"><i class="fas fa-shopping-cart"></i></a>     
+        
+            </div>
+            <div class ="Menu">
+                    <div class="columns" >
+                        <div class="title">idli. . . . . . . . . . . . . . 
+                        <br><h3>(Steamed rice dumpling filled with sweet coconut filling.)</h3> </div>
+                       
+                        
+                        <div class="Price">$20</div>
+                    </div>
+                    <a class="add-cart" href="a"><i class="fas fa-shopping-cart"></i></a>     
+            
+                </div>
+                <div class ="Menu">
+                        <div class="columns" >
+                            
+                            <div class="title">Puranpoli. . . . . . . . . . . . 
+                            <br><h3>(Steamed rice dumpling filled with sweet coconut filling.)</h3></div>
+                            <div class="Price">$20</div>
+                        </div>
+                        <a class="add-cart" href="a"><i class="fas fa-shopping-cart"></i></a>     
+                
+                    </div>
+                    <div class ="Menu">
+
+                        <div class="columns" >
+                            <div class="title">Modak. . . . . . . . . . . . . . 
+                           <br><h3>(Steamed rice dumpling filled with sweet coconut filling.)</h3></div>
+                            <div class="Price">$20</div>
+                        </div>
+                        <a class="add-cart" href="a"><i class="fas fa-shopping-cart"></i></a>     
+                
+                    </div>
+                    <div class ="Menu">
+                            <div class="columns" >
+                                <div class="title">idli. . . . . . . . . . . . . . 
+                                <br><h3>(Steamed rice dumpling filled with sweet coconut filling.)</h3> </div>
+                               
+                                
+                                <div class="Price">$20</div>
+                            </div>
+                            <a class="add-cart" href="a"><i class="fas fa-shopping-cart"></i></a>     
+                    
+                        </div>
+                        <div class ="Menu">
+                                <div class="columns" >
+                                    
+                                    <div class="title">Puranpoli. . . . . . . . . . . . 
+                                    <br><h3>(Steamed rice dumpling filled with sweet coconut filling.)</h3></div>
+                                    <div class="Price">$20</div>
+                                </div>
+                                <a class="add-cart" href="a"><i class="fas fa-shopping-cart"></i></a>     
+                        
+                            </div>
+                            <div class ="Menu">
+
+        <div class="columns" >
+            <div class="title">Modak. . . . . . . . . . . . . . 
+           <br><h3>(Steamed rice dumpling filled with sweet coconut filling.)</h3></div>
+            <div class="Price">$20</div>
+        </div>
+        <a class="add-cart" href="a"><i class="fas fa-shopping-cart"></i></a>     
+
+    </div>
+    <div class ="Menu">
+            <div class="columns" >
+                <div class="title">idli. . . . . . . . . . . . . . 
+                <br><h3>(Steamed rice dumpling filled with sweet coconut filling.)</h3> </div>
+               
+                
+                <div class="Price">$20</div>
+            </div>
+            <a class="add-cart" href="a"><i class="fas fa-shopping-cart"></i></a>     
+    
+        </div>
+        <div class ="Menu">
+                <div class="columns" >
+                    
+                    <div class="title">Puranpoli. . . . . . . . . . . . 
+                    <br><h3>(Steamed rice dumpling filled with sweet coconut filling.)</h3></div>
+                    <div class="Price">$20</div>
+                </div>
+                <a class="add-cart" href="a"><i class="fas fa-shopping-cart"></i></a>     
+        
+            </div>
+            
+
+
+</section>
+</div> 
+</div>   
+          
+          
+        
+        </main>
+       
+    </body>
+</html>
+
+
+
+
+var AddItemToCart= document.getElementsByClassName('add-cart')
+console.log(AddItemToCart)
+for( var i=0; i < AddItemToCart.length; i++)
+{
+
+    var button=AddItemToCart[i]
+    button.addEventListener('click',function(event){
+
+        var buttonClicked=event.targer
+        buttonClicked.parentElement.parentElement.add()
+    })
+}
+
+
+
+------------------------ removeItem
+let removeItemClick=document.querySelectorAll('.remove');
+for(let i=0;i<removeItemClick.length;i++){         
+   removeItemClick[i].addEventListener('click',event=>{
+
+                     let onClickRemove=event.target;
+                    // location.reload();
+                     let removedItem=onClickRemove.parentElement.dataset.title;
+                    // console.log(onClickDecrease.parentElement);
+                    // console.log(decreasedItem);
+
+                    let onClickRemove=event.target;
+                    let removedItemOnClick=onClickRemove;
+                    removedItemOnClick.parentElement.parentElement.remove();
+                    itemInCart=JSON.stringify(itemInCart);
+                    let removedItem=onClickRemove.parentElement.dataset.title;
+                   
+  
+                    
+                Object.values(itemInCart).map(itemClicked=>{
+                  if(removedItem===itemClicked.title && totalCost!=null && numberOfItemsInCart){
+                     
+                     itemInCart[itemClicked.title].inCart-=1;
+                         
+                         localStorage.setItem("productIncart",JSON.stringify(itemInCart));
+                       
+                         numberOfItemsInCart=parseInt(numberOfItemsInCart);
+                         localStorage.setItem('itemsInCart', numberOfItemsInCart-itemClicked.inCart);
+                         totalCost=parseInt(totalCost);
+
+                         localStorage.setItem("cartTotal", totalCost-itemClicked.price); 
+
+
+                    }
+                   
+                  })
+         
+             })
+            }
+ 
+
